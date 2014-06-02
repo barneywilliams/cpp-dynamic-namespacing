@@ -27,7 +27,7 @@ $(OUT_DIR):
 	$(MKDIRS) $(OUT_DIR)
 
 clean:
-	$(RM_ALL) $(OBJS) $(OUT_DIR) ./**/*.gch ./*.out $(BIN)
+	$(RM_ALL) $(OBJS) $(OUT_DIR) $(BIN)
 
 $(OUT_DIR)/ColonelA.o: directories ColonelA.h ColonelA.cpp libFoo_v1/libFoo.h
 	$(CC) -I"./libfoo_v1/" $(CXXFLAGS) -c ColonelA.cpp -o $@

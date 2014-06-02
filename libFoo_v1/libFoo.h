@@ -1,5 +1,5 @@
-#ifndef LIB_FOO_V1
-#define LIB_FOO_V1
+#ifndef LIB_FOO
+#define LIB_FOO
 namespace FooNamespace
 {
   static const char* _My40 = "Colonel sir! I am 'Original', sir!";
