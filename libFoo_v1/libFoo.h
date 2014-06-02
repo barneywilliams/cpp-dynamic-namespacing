@@ -1,6 +1,6 @@
 #ifndef LIB_FOO_V1
 #define LIB_FOO_V1
-namespace DYNAMIC_NAMESPACE
+namespace FooNamespace
 {
 	static const char* _My40 = "Colonel sir! I am 'Original', sir!";
 	class Foo

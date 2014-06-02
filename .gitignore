@@ -1,4 +1,6 @@
+.git/
+obj/
+general
 *.out
 *.a
 *.o
-.git/

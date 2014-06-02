@@ -6,8 +6,8 @@ int main(void)
 {
 	printf("The General: All Colonels report their 40! STAT!\n");
 
-	ColonelA::ColonelA a;
-	ColonelB::ColonelB b;
+	ColonelATerritory::ColonelA a;
+	ColonelBTerritory::ColonelB b;
 
 	a.Report();
 	b.Report();
