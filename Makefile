@@ -15,7 +15,7 @@ build: directories $(BIN)
 all: clean build run
 
 run:
-	echo "\nRunning Example:\n"
+	@echo=off; echo "\nRunning Example:\n"
 	./$(BIN)
 
 $(BIN): $(OBJS)
