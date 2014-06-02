@@ -4,13 +4,13 @@
 
 int main(void)
 {
-	printf("The General: All Colonels report their 40! STAT!\n");
+  printf("The General: All Colonels report their 40! STAT!\n");
 
-	ColonelATerritory::ColonelA a;
-	ColonelBTerritory::ColonelB b;
+  ColonelATerritory::ColonelA a;
+  ColonelBTerritory::ColonelB b;
 
-	a.Report();
-	b.Report();
+  a.Report();
+  b.Report();
 
-	printf("The General: All Colonels and their Foos are reporting for duty!\n");
+  printf("The General: All Colonels and their Foos are reporting for duty!\n");
 }

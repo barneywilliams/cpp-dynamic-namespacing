@@ -7,20 +7,18 @@ using namespace ColonelATerritory;
 
 ColonelA::ColonelA()
 {
-	_Foo = new Foo();
-	printf("ColonelA reporting for duty, sir!\n");
+  _Foo = new Foo();
+  printf("ColonelA reporting for duty, sir!\n");
 }
 
 ColonelA::~ColonelA()
 {
-	delete _Foo;
-	_Foo = NULL;
+  delete _Foo;
+  _Foo = NULL;
 }
 
 void ColonelA::Report()
 {
-	printf("ColonelA asks its Foo: 'What's your 40 Foo?'\n");
-	printf("ColonelA's Foo: %s\n", _Foo->Report40());
+  printf("ColonelA asks its Foo: 'What's your 40 Foo?'\n");
+  printf("ColonelA's Foo: %s\n", _Foo->Report40());
 }
-
-#undef FooNamespace

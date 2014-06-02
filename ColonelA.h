@@ -2,15 +2,15 @@
 #define COLONEL_A
 namespace ColonelATerritory
 {
-	class Foo;
-	class ColonelA
-	{
-	public:
-		ColonelA();
-		~ColonelA();
-		void Report();
-	private:
-		Foo* _Foo;
-	};
+  class Foo;
+  class ColonelA
+  {
+  public:
+    ColonelA();
+    ~ColonelA();
+    void Report();
+  private:
+    Foo* _Foo;
+  };
 }
 #endif

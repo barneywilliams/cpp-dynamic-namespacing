@@ -2,15 +2,15 @@
 #define COLONEL_B
 namespace ColonelBTerritory
 {
-	class Foo;
-	class ColonelB
-	{
-	public:
-		ColonelB();
-		~ColonelB();
-		void Report();
-	private:
-		Foo* _Foo;
-	};
+  class Foo;
+  class ColonelB
+  {
+  public:
+    ColonelB();
+    ~ColonelB();
+    void Report();
+  private:
+    Foo* _Foo;
+  };
 }
 #endif

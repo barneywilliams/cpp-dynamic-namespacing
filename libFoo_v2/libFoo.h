@@ -2,11 +2,11 @@
 #define LIB_FOO_V2
 namespace FooNamespace
 {
-	static const char* _My40 = "Colonel sir! I am 'Extra Crispy', sir!";
-	class Foo
-	{
-	public:
-		const char* Report40() {return _My40;}
-	};
+  static const char* _My40 = "Colonel sir! I am 'Extra Crispy', sir!";
+  class Foo
+  {
+  public:
+    const char* Report40() {return _My40;}
+  };
 }
 #endif
